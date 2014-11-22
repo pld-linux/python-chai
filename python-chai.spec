@@ -16,11 +16,14 @@ Source0:	http://pypi.python.org/packages/source/c/%{module}/%{module}-%{version}
 URL:		http://pypi.python.org/pypi/chai
 BuildRequires:	python-devel
 BuildRequires:	python-nose
-BuildArch:	noarch
+BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 %if %{with python3}
 BuildRequires:	python3-devel
 BuildRequires:	python3-nose
+BuildRequires:	python3-setuptools
 %endif
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
