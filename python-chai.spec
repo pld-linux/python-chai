@@ -14,6 +14,7 @@ Group:		Development/Libraries
 Source0:	http://pypi.python.org/packages/source/c/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	fce8d1deb08ef6c1fb2b56eea7ae7b67
 URL:		http://pypi.python.org/pypi/chai
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildRequires:	python-nose
 BuildRequires:	python-setuptools
