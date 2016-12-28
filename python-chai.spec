@@ -8,7 +8,7 @@
 Summary:	Easy to use mocking/stub/spy framework
 Name:		python-%{module}
 Version:	1.0.0
-Release:	4
+Release:	5
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://pypi.python.org/packages/source/c/%{module}/%{module}-%{version}.tar.gz
